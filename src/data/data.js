@@ -1,11 +1,11 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "John Doe",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    name: "Polore Olorunojowon",
+    bio: "Undergraduate Bachelor of Design and City Innovation Student at University of Calgary passionate about designing for humanity as a priorty and with aesthetic appeal.",
     contact: {
-        email: "john.doe@gmail.com",
-        phone: "+12345678910",
+        email: "polore.olorunojowon@ucalgary.ca",
+        phone: "778-922-8271",
         linkedin: "https://www.linkedin.com/",
         github: "https://www.github.com/",
     }
