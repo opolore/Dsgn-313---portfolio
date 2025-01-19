@@ -39,7 +39,7 @@ document.querySelector("#app").innerHTML = `
           <div id="images">
             ${cubes
               .map(
-                (cube, index) => `<img src="${Ccube}" alt="cube${index + 1}" />`
+                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
               )
               .join("")}
           </div>
