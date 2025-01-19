@@ -3,8 +3,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(33, 28, 47, 0.87);
+  background-color: #dbeaee;
 }
 
 * {
@@ -95,7 +95,7 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 400px;
+  height: 300px;
   width: 300px;
   margin-right: 3em;
   margin-left: 6em;
