@@ -3,9 +3,9 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
+  "./cubeDrawings/cube1.jpg",
+  "./cubeDrawings/cube2.jpg",
+  "./cubeDrawings/cube3.jpg",
 ];
 
 const trees = [
