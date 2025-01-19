@@ -99,7 +99,7 @@ h1 {
   width: 450px;
   margin-right: 3em;
   margin-left: 6em;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
 }
 
 img {
@@ -130,7 +130,7 @@ img {
   /* Center description content */
   display: flex;
   align-items: center;
-  height: 6em;
+  height: 9em;
   width: 45em;
   font-weight: 200;
   margin-left: 2em;
