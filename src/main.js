@@ -30,7 +30,7 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Cadavre Exquis
+      CADAVRE EXQUIS
         <div class="three-model">
         <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/cubeDrawings/cube0.jpg" target="_blank">
           <img src="./cubeDrawings/cube0.jpg" id="model1" alt="Model 1 image" />

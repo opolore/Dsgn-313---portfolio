@@ -1,7 +1,7 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "Polore Olorunojowon",
+    name: "POLORE OLORUNOJOWON",
     bio: "Undergraduate Bachelor of Design and City Innovation Student at University of Calgary passionate about designing for humanity as a priorty and with aesthetic appeal.",
     contact: {
         email: "polore.olorunojowon@ucalgary.ca",

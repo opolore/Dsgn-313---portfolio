@@ -3,8 +3,8 @@
   font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #ebf3f5;
+  color: rgba(9, 0, 31, 0.87);
+  background-color: #f5f9fa;
 }
 
 * {
@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #0d0223;
+  background-color: #242030;
   color: white;
   z-index: 10;
 }
