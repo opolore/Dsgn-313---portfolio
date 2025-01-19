@@ -1,6 +1,6 @@
 :root {
   /* Global font, line-height, and colors */
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(33, 28, 47, 0.87);
@@ -135,6 +135,7 @@ img {
   font-weight: 100;
   margin-left: 2em;
   margin-top: 3em;
+  font-size: 12px; /* Add this line to adjust font size */
 }
 
 @media screen and (max-width: 768px) {
