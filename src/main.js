@@ -32,7 +32,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis
         <div class="three-model">
-          <div id="model1"></div>
+          <img src="./cubeDrawings/cube0.jpg" id="model1" alt="Model 1 image" />
         </div>
         <div id="images-description">
           <div id="images">
@@ -81,7 +81,7 @@ document.querySelector("#app").innerHTML = `
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
       </div>
-      */""} 
+      */""}
     </section>
 
     <ul id="footer-items">
