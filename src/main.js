@@ -6,7 +6,6 @@ const cubes = [
   "./cubeDrawings/cube1.webp",
   "./cubeDrawings/cube2.webp",
   "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
 ];
 
 const trees = [
