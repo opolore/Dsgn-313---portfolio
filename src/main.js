@@ -43,7 +43,8 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">This work reflects how design intersects with identity, equity, and belonging, emphasizing that our outward appearances don’t define who we are. Though people may first notice my skin as a Black person, it’s only a part of my larger story, rooted in culture, resilience, and creativity. Through hand drawings, edited photos, and my body, I explore the complexity of identity, symbolized by elements like the brain, heart, and hands. Design, like identity, requires intention and care, inviting us to look beyond the surface and create spaces that promote equity and belonging. This work is a personal reflection and a reminder that we are all more than meets the eye. It challenges the idea that identity is fixed, urging us to embrace the fullness of who we are, beyond what’s visible. 
+</h4>
         </div>
       </div>
 
