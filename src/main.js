@@ -32,18 +32,18 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis
         <div class="three-model">
-        <a href="http://localhost:5174/cubeDrawings/cube0.jpg" target="_blank">
+        <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/cubeDrawings/cube0.jpg" target="_blank">
           <img src="./cubeDrawings/cube0.jpg" id="model1" alt="Model 1 image" />
         </div>
         <div id="images-description">
           <div id="images">
-  <a href="http://localhost:5175/cubeDrawings/cube1.jpg" target="_blank">
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/cubeDrawings/cube1.jpg" target="_blank">
     <img src="./cubeDrawings/cube1.jpg" alt="cube2" />
   </a>
-  <a href="http://localhost:5174/cubeDrawings/cube2.jpg" target="_blank">
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/cubeDrawings/cube2.jpg" target="_blank">
     <img src="./cubeDrawings/cube2.jpg" alt="cube3" />
   </a>
-  <a href="http://localhost:5175/cubeDrawings/cube3.jpg" target="_blank">
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/cubeDrawings/cube3.jpg" target="_blank">
     <img src="./cubeDrawings/cube3.jpg" alt="cube4" />
   </a>
 </div>
