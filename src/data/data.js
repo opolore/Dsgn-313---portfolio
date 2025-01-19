@@ -7,7 +7,7 @@ const data = {
         email: "polore.olorunojowon@ucalgary.ca",
         phone: "778-922-8271",
         linkedin: "https://www.linkedin.com/",
-        github: "https://www.github.com/",
+        github: "https://github.com/opolore",
     }
 }
 
