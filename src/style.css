@@ -1,6 +1,6 @@
 :root {
   /* Global font, line-height, and colors */
-  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(33, 28, 47, 0.87);
@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #0d0223;
   color: white;
   z-index: 10;
 }
