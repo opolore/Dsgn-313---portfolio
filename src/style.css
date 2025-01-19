@@ -2,9 +2,9 @@
   /* Global font, line-height, and colors */
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 100;
   color: rgba(33, 28, 47, 0.87);
-  background-color: #dbeaee;
+  background-color: #ebf3f5;
 }
 
 * {
