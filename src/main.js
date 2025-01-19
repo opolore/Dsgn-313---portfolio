@@ -2,11 +2,11 @@ import "./style.css";
 import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
-const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+const CEs = [
+  "./CE/CadavreExquis2.jpg",
+  "./CE/CadavreExquis3.jpg",
+  "./CE/CadavreExquis4.jpg",
+  "./CE/CadavreExquis5.jpg",
 ];
 
 const trees = [
