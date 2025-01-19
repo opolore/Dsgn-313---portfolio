@@ -32,16 +32,21 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis
         <div class="three-model">
+        <a href="http://localhost:5174/cubeDrawings/cube0.jpg" target="_blank">
           <img src="./cubeDrawings/cube0.jpg" id="model1" alt="Model 1 image" />
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
-          </div>
+  <a href="http://localhost:5175/cubeDrawings/cube1.jpg" target="_blank">
+    <img src="./cubeDrawings/cube1.jpg" alt="cube2" />
+  </a>
+  <a href="http://localhost:5174/cubeDrawings/cube2.jpg" target="_blank">
+    <img src="./cubeDrawings/cube2.jpg" alt="cube3" />
+  </a>
+  <a href="http://localhost:5175/cubeDrawings/cube3.jpg" target="_blank">
+    <img src="./cubeDrawings/cube3.jpg" alt="cube4" />
+  </a>
+</div>
           <h4 id="description">This work reflects how design intersects with identity, equity, and belonging, emphasizing that our outward appearances don’t define who we are. Though people may first notice my skin as a Black person, it’s only a part of my larger story, rooted in culture, resilience, and creativity. Through hand drawings, edited photos, and my body, I explore the complexity of identity, symbolized by elements like the brain, heart, and hands. Design, like identity, requires intention and care, inviting us to look beyond the surface and create spaces that promote equity and belonging. This work is a personal reflection and a reminder that we are all more than meets the eye. It challenges the idea that identity is fixed, urging us to embrace the fullness of who we are, beyond what’s visible. 
 </h4>
         </div>
