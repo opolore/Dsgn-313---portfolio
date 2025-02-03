@@ -103,9 +103,10 @@ h1 {
 }
 
 img {
-  /* Image dimensions and margin */
+  /* Default Image dimensions (for cube drawings) */
   height: 120px;
   width: 120px;
+  object-fit: cover;
   margin: 0.5em;
 }
 
@@ -135,8 +136,11 @@ img {
   font-weight: 200;
   margin-left: 2em;
   margin-top: 3em;
-  font-size: 12px; /* Add this line to adjust font size */
+  font-size: 12px; /* Adjust font size */
 }
+
+
+
 
 @media screen and (max-width: 768px) {
   #footer-items {
@@ -150,4 +154,4 @@ img {
     /* Adjust footer paragraph margin on smaller screens */
     margin: 5px 0;
   }
-}
+

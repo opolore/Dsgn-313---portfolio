@@ -7,12 +7,16 @@ const cubes = [
   "./cubeDrawings/cube2.jpg",
   "./cubeDrawings/cube3.jpg",
 ];
-
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./PORTFOLIO/Interoperability1.jpg",
+  "./PORTFOLIO/Interoperability2.jpg",
+  "./PORTFOLIO/Interoperability3.jpg",
+];
+
+const cards = [
+  "./PORTFOLIO/Interoperability4.jpg",
+  "./PORTFOLIO/Interoperability5.jpg",
+  "./PORTFOLIO/Interoperability6.jpg",
 ];
 
 const houses = [
@@ -52,24 +56,58 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
+      <section id="projects">
       <div id="project-row">
-      ${/*Assignment 2
+      INTER(OPERABILITY)
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+           <div class="three-model">
+        </div>
+        <div id="images-description">
+         <div id="images">
+  ${trees
+    .map(
+      (tree, index) =>
+        `<img src="${tree}" class="trees" alt="tree${index + 1}" />`
+    )
+    .join("")}
+</div>
+<div id="images">
+  ${cards
+    .map(
+      (card, index) =>
+        `<img src="${card}" class="cards" alt="card${index + 1}" />`
+    )
+    .join("")}
+    ${/*</div>
+ <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/PORTFOLIO/Interoperability1.jpg" target="_blank">
+    <img src="./PORTFOLIO/Interoperability1.jpg" alt="cube2" />
+  </a>
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/PORTFOLIO/Interoperability2.jpg" target="_blank">
+    <img src="./PORTFOLIO/Interoperability2.jpg" alt="cube3" />
+  </a>
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/PORTFOLIO/Interoperability3.jpg" target="_blank">
+    <img src="./PORTFOLIO/Interoperability3.jpg" alt="cube4" />
+  </a>
+   <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/PORTFOLIO/Interoperability4.jpg" target="_blank">
+    <img src="./PORTFOLIO/Interoperability4.jpg" alt="cube2" />
+  </a>
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/PORTFOLIO/Interoperability5.jpg" target="_blank">
+    <img src="./PORTFOLIO/cInteroperability5.jpg" alt="cube3" />
+  </a>
+  <a href="https://dsgn-313-portfolio-5rpsbjcmw-opolores-projects.vercel.app/PORTFOLIO/Interoperability6.jpg" target="_blank">
+    <img src="./PORTFOLIO/Interoperability6.jpg" alt="cube4" />
+  </a>
+   */""}
+          </div>
+          <h4 id="description">Interoperability allows design elements to transition smoothly between different software, enhancing flexibility and preventing limitations from a single platform. In this assignment, I explored this concept by exporting models from Blender to Rhino using FBX, STL, and OBJ formats. I observed how meshes, composed of polygons, could be transformed into NURBS for precision-based applications. Understanding these transitions improves design refinement, environmental simulations, and collaboration across tools. Mastering interoperability enables me to leverage multiple software strengths, optimizing my workflow and expanding creative possibilities in future projects.</h4>
         </div>
       </div>
-*/""}
+
       <div id="project-row">
       ${/*Assignment 3
         <div class="three-model">
@@ -104,5 +142,5 @@ document.querySelector("#app").innerHTML = `
 
 // Create three.js scenes for each
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
-//createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model2", "/3DModels/project2/Fox.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
