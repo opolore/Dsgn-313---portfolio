@@ -110,6 +110,12 @@ img {
   margin: 0.5em;
 }
 
+.trees img,
+.cards img {
+  height: 120px;
+  width: 169.74px;
+}
+
 #images {
   /* Center image container */
   display: flex;
