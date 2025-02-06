@@ -102,6 +102,10 @@ h1 {
   border: 0px solid #ccc;
 }
 
+#model2 {
+  margin-bottom: 270px;
+}
+
 img {
   /* Default Image dimensions (for cube drawings) */
   height: 120px;
@@ -110,10 +114,13 @@ img {
   margin: 0.5em;
 }
 
-.trees img,
-.cards img {
+.rainbow {
+  /* Default Image dimensions (for cube drawings) */
   height: 120px;
-  width: 169.74px;
+  width: 170px;
+  object-fit: cover;
+  margin: 0.5em;
+  margin-bottom: 310px;
 }
 
 #images {
@@ -146,8 +153,6 @@ img {
 }
 
 
-
-
 @media screen and (max-width: 768px) {
   #footer-items {
     /* Responsive footer styling */
@@ -161,3 +166,4 @@ img {
     margin: 5px 0;
   }
 
+}

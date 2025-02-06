@@ -70,25 +70,25 @@ document.querySelector("#app").innerHTML = `
         <div id="images-description">
          <div id="images">
   <a href="https://dsgn-313-portfolio-opolores-projects.vercel.app/PORTFOLIO/Interoperability1.jpg" target="_blank">
-    <img src="./PORTFOLIO/Interoperability1.jpg" alt="Interoperability1" />
+    <img src="./PORTFOLIO/Interoperability1.jpg" alt="Interoperability1" class="rainbow"/>
   </a>
   <a href="https://dsgn-313-portfolio-opolores-projects.vercel.app/PORTFOLIO/Interoperability2.jpg" target="_blank">
-    <img src="./PORTFOLIO/Interoperability2.jpg" alt="Interoperability2" />
+    <img src="./PORTFOLIO/Interoperability2.jpg" alt="Interoperability2" class="rainbow"/>
   </a>
   <a href=https://dsgn-313-portfolio-opolores-projects.vercel.app/PORTFOLIO/Interoperability3.jpg" target="_blank">
-    <img src="./PORTFOLIO/Interoperability3.jpg" alt="Interoperability3" />
+    <img src="./PORTFOLIO/Interoperability3.jpg" alt="Interoperability3" class="rainbow"/>
     </div>
   </a>
 </div>
 <div id="images">
  <a href="https://dsgn-313-portfolio-opolores-projects.vercel.app/PORTFOLIO/Interoperability4.jpg" target="_blank">
-    <img src="./PORTFOLIO/Interoperability4.jpg" alt="Interoperability4" />
+    <img src="./PORTFOLIO/Interoperability4.jpg" alt="Interoperability4" class="rainbow"/>
   </a>
   <a href="https://dsgn-313-portfolio-opolores-projects.vercel.app/PORTFOLIO/Interoperability5.jpg" target="_blank">
-    <img src="./PORTFOLIO/Interoperability5.jpg" alt="Interoperability5" />
+    <img src="./PORTFOLIO/Interoperability5.jpg" alt="Interoperability5" class="rainbow"/>
   </a>
   <a href="https://dsgn-313-portfolio-opolores-projects.vercel.app/PORTFOLIO/Interoperability6.jpg" target="_blank">
-    <img src="./PORTFOLIO/Interoperability6.jpg" alt="Interoperability6" />
+    <img src="./PORTFOLIO/Interoperability6.jpg" alt="Interoperability6" class="rainbow"/>
   </a>
           </div>
           <h4 id="description">Interoperability allows design elements to transition smoothly between different software, enhancing flexibility and preventing limitations from a single platform. In this assignment, I explored this concept by exporting models from Blender to Rhino using FBX, STL, and OBJ formats. I observed how meshes, composed of polygons, could be transformed into NURBS for precision-based applications. Understanding these transitions improves design refinement, environmental simulations, and collaboration across tools. Mastering interoperability enables me to leverage multiple software strengths, optimizing my workflow and expanding creative possibilities in future projects.</h4>
